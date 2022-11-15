@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Expenses from './components/Expenses/Expenses';
+import Counter from "./components/counter"
 
 function App() {
   const expensesArray = [
@@ -28,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <Expenses expenses={expensesArray} />
+      {/* < Counter /> */}
     </div>
   );
 }
