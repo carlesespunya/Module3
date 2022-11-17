@@ -1,7 +1,7 @@
 import './App.css';
 import Expenses from './components/Expenses/Expenses';
-import Counter from "./components/counter"
-import Projects from "./components/Projects";
+// import Counter from "./components/counter"
+// import Projects from "./components/Projects";
 import NewExpense from './components/NewExpenses/NewExpense';
 
 import React, {useState} from "react"
